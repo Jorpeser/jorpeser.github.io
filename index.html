@@ -1,6 +1,104 @@
 <!DOCTYPE html>
-<html>
-<body style="background-color:black">
-<h1 style="color:gold">Hello World</h1>
+<html lang="en">
+
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class = "icon-bar"></span>
+          <span class = "icon-bar"></span>
+          <span class = "icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="#">PEPE</a>
+        <a class = "navbar-brand media-icon" href="https://www.facebook.com/" target = "_blank"><i class = "fa fa-facebook-square"></i></a>
+        <a class = "navbar-brand media-icon" href="https://www.instagram.com/" target = "_blank"><i class = "fa fa-instagram"></i></a>
+        <a class = "navbar-brand media-icon" href ="https://www.twitter.com/" target = "_blank"><i class = "fa fa-twitter"></i></a>
+      </div>
+      <div class = "navbar navbar-nav" id = media-icons>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#cosas">COSAS</a></li>
+          <li><a href="#media">MEDIA</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="jumbotron text-center">
+    <h1>Pepe Perez Valenzuela</h1>
+    <p>Este es mi proyecto de portfolio</p>
+    <form class="form-inline">
+      <div class="input-group">
+        <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+        <div class="input-group-btn">
+          <button type="button" class="btn" id="suscr">Subscribe</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="container-fluid" id="about">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>About Myself</h2>
+        <h4>Bla bla bla</h4>
+        <p>Bla bla bla</p>
+        <button class="btn btn-default btn-lg">More information</button>
+      </div>
+      <div class="col-sm-4">
+        <i class="fa fa-id-card-o logo" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-grey" id="cosas">
+    <div class="row">
+      <div class="col-xs-4">
+        <i class="fa fa-codepen logo" aria-hidden="true"></i>
+      </div>
+      <div class="col-xs-8">
+        <h2>Mas cosas</h2>
+        <h4><strong>GOALS:</strong> Bla bla bla</h4>
+        <p><strong>FUTURE:</strong> Bla bla bla</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid text-center" id="media">
+    <div class="row">
+      <div class="col-xs-4">
+        <i class="fa fa-free-code-camp sm-logo" aria-hidden="true"></i>
+        <h4>FREECODECAMP</h4>
+        <p>Full Stack SOON!</p>
+      </div>
+      <div class="col-xs-4">
+        <i class="fa fa-code sm-logo" aria-hidden="true"></i>
+        <h4>LANGUAJES</h4>
+        <p>Java, Javascript, Python...</p>
+      </div>
+      <div class="col-xs-4">
+        <i class="fa fa-university sm-logo" aria-hidden="true"></i>
+        <h4>STUDIES</h4>
+        <p>Computer Science UPV</p>
+      </div>
+    </div>
+  </div>
+  <footer class = "text-center container-fluid bg-grey">
+    <a href = "#" title = "To Top">
+      <i class = "fa fa-arrow-circle-o-up" id = "to-top"></i>
+    </a>
+    <p>Designed and coded by Pepe</p>
+  </footer>
+
 </body>
+
 </html>
